@@ -1,8 +1,8 @@
-import HeroSection from './components/HeroSection';
+import HeroSection from './components/Home/HeroSection';
 import Navbar from './components/Navbar';
 import { useState } from 'react';
 import PatinentScreenModal from './components/PatinentScreenModal';
-import Main from './components/Main';
+import Main from './components/Home/Main';
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
