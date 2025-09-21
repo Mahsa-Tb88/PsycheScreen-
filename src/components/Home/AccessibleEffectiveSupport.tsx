@@ -4,7 +4,7 @@ import { LuBrain, LuPhone } from 'react-icons/lu';
 
 export default function AccessibleEffectiveSupport() {
   return (
-    <section className="bg-gray-50 py-16 px-6 text-center">
+    <section className=" py-16 px-6 text-center ">
       <div className="max-w-3xl mx-auto">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1 bg-emerald-500 text-white rounded-full text-sm font-medium mb-4">
@@ -29,24 +29,23 @@ export default function AccessibleEffectiveSupport() {
           healthcare providers.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
+        {/* {album} */}
         <div className="grid grid-cols-2 gap-4">
           {/* First Image */}
+
           <div className="relative">
             <img
-              src="path_to_your_image_1.jpg"
-              alt="Image 1"
-              className="w-full h-auto rounded-lg"
+              src="/images/ai-call-phone.jpg"
+              alt="Image 2"
+              className="w-full h-full rounded-lg "
             />
-            <div className="absolute inset-0 flex justify-center items-center text-white text-lg font-semibold bg-black bg-opacity-50">
-              <p>Incoming Call</p>
-            </div>
           </div>
 
           {/* Second Image */}
           <div className="relative">
             <img
-              src="path_to_your_image_2.jpg"
+              src="/images/ai-call-driving.jpg"
               alt="Image 2"
               className="w-full h-auto rounded-lg"
             />
@@ -55,7 +54,7 @@ export default function AccessibleEffectiveSupport() {
           {/* Third Image */}
           <div className="relative">
             <img
-              src="path_to_your_image_3.jpg"
+              src="/images/ai-call-bed.jpg"
               alt="Image 3"
               className="w-full h-auto rounded-lg"
             />
@@ -64,14 +63,15 @@ export default function AccessibleEffectiveSupport() {
           {/* Fourth Image */}
           <div className="relative">
             <img
-              src="path_to_your_image_4.jpg"
+              src="/images/ai-call-walking.jpg"
               alt="Image 4"
               className="w-full h-auto rounded-lg"
             />
           </div>
         </div>
-        <div className="flex justify-center py-12 bg-gray-50">
-          <div className="bg-white rounded-2xl shadow-md p-6 max-w-md w-full text-center border border-gray-100">
+        {/* {chat} */}
+        <div className="flex justify-center py-12 ">
+          <div className="bg-blue-50 rounded-2xl shadow-md p-6 max-w-md w-full text-center border border-gray-100">
             {/* Icon */}
             <div className="w-14 h-14 flex items-center justify-center mx-auto bg-blue-100 text-blue-600 rounded-full mb-4 text-2xl">
               <HiPhone />
