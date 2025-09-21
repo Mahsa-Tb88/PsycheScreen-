@@ -1,4 +1,5 @@
-import { LuPhone } from 'react-icons/lu';
+import { HiPhone } from 'react-icons/hi';
+import { LuBrain, LuCheck, LuPhone, LuReceipt } from 'react-icons/lu';
 
 export default function AccessibleEffectiveSupport() {
   return (
@@ -26,6 +27,57 @@ export default function AccessibleEffectiveSupport() {
           empathetic conversations to gather crucial mental health insights for
           healthcare providers.
         </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <div></div>
+        <div className="flex justify-center py-12 bg-gray-50">
+          <div className="bg-white rounded-2xl shadow-md p-6 max-w-md w-full text-center border border-gray-100">
+            {/* Icon */}
+            <div className="w-14 h-14 flex items-center justify-center mx-auto bg-blue-100 text-blue-600 rounded-full mb-4 text-2xl">
+              <HiPhone />
+            </div>
+
+            {/* Title */}
+            <h3 className="text-lg font-semibold text-gray-700">
+              AI Agent Calling...
+            </h3>
+            <p className="text-gray-400 text-sm mb-6">
+              Sarah M. - Weekly Check-in
+            </p>
+
+            {/* AI Message */}
+            <div className="text-left bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
+              <p className="text-xs text-gray-500 font-medium mb-1">
+                AI Agent:
+              </p>
+              <p className="text-gray-700">
+                "Hi Sarah, this is your PsycheScreen wellness check. How have
+                you been feeling this week?"
+              </p>
+            </div>
+
+            {/* Patient Response */}
+            <div className="text-left bg-blue-50 border border-blue-200 rounded-lg p-4">
+              <p className="text-xs text-blue-600 font-medium mb-1">
+                Patient Response:
+              </p>
+              <p className="text-gray-700">
+                "I've been feeling a bit anxious lately, especially about
+                work..."
+              </p>
+            </div>
+
+            {/* Status */}
+            <div className="flex items-center justify-center gap-6 mt-6 text-sm">
+              <span className="flex items-center gap-1 text-green-600 font-medium">
+                <LuCheck /> Recording
+              </span>
+              <span className="flex items-center gap-1 text-blue-600 font-medium">
+                <LuBrain /> AI Analysis Active
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
