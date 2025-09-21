@@ -1,5 +1,6 @@
 import { HiPhone } from 'react-icons/hi';
-import { LuBrain, LuCheck, LuPhone, LuReceipt } from 'react-icons/lu';
+import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
+import { LuBrain, LuPhone } from 'react-icons/lu';
 
 export default function AccessibleEffectiveSupport() {
   return (
@@ -29,7 +30,46 @@ export default function AccessibleEffectiveSupport() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div></div>
+        <div className="grid grid-cols-2 gap-4">
+          {/* First Image */}
+          <div className="relative">
+            <img
+              src="path_to_your_image_1.jpg"
+              alt="Image 1"
+              className="w-full h-auto rounded-lg"
+            />
+            <div className="absolute inset-0 flex justify-center items-center text-white text-lg font-semibold bg-black bg-opacity-50">
+              <p>Incoming Call</p>
+            </div>
+          </div>
+
+          {/* Second Image */}
+          <div className="relative">
+            <img
+              src="path_to_your_image_2.jpg"
+              alt="Image 2"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+
+          {/* Third Image */}
+          <div className="relative">
+            <img
+              src="path_to_your_image_3.jpg"
+              alt="Image 3"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+
+          {/* Fourth Image */}
+          <div className="relative">
+            <img
+              src="path_to_your_image_4.jpg"
+              alt="Image 4"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+        </div>
         <div className="flex justify-center py-12 bg-gray-50">
           <div className="bg-white rounded-2xl shadow-md p-6 max-w-md w-full text-center border border-gray-100">
             {/* Icon */}
@@ -70,7 +110,7 @@ export default function AccessibleEffectiveSupport() {
             {/* Status */}
             <div className="flex items-center justify-center gap-6 mt-6 text-sm">
               <span className="flex items-center gap-1 text-green-600 font-medium">
-                <LuCheck /> Recording
+                <IoMdCheckmarkCircleOutline /> Recording
               </span>
               <span className="flex items-center gap-1 text-blue-600 font-medium">
                 <LuBrain /> AI Analysis Active
