@@ -64,21 +64,3 @@ export default function HowPsycheScreenWork() {
     </section>
   );
 }
-
-{
-  /* <div className="flex flex-col justify-center items-center max-w-4xl mx-auto ">
-      <h3 className="text-slate-800 font-bold text-4xl mb-12">
-        How PsycheScreen Works
-      </h3>
-
-      <div className="">
-        <div className="flex items-center gap-x-2">
-          <PiPhone className="text-blue-500 text-2xl font-bold" size={20} />
-          <h5 className="">Proactive AI Calls</h5>
-        </div>
-        <div>
-          <p>AI conducts empathetic conversations with patients.</p>
-        </div>
-      </div>
-    </div> */
-}

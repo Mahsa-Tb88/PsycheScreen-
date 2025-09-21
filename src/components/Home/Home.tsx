@@ -1,3 +1,4 @@
+import AccessibleEffectiveSupport from './AccessibleEffectiveSupport';
 import HeroSection from './HeroSection';
 import Main from './Main';
 import PatinentScreenModal from './PatinentScreenModal';
@@ -13,6 +14,7 @@ export default function Home() {
 
       {/* Main Content */}
       <Main />
+      <AccessibleEffectiveSupport />
 
       {/* Patient Screening Modal */}
       {isModalOpen && <PatinentScreenModal setIsModalOpen={setIsModalOpen} />}
