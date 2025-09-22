@@ -6,7 +6,7 @@ export default function WhyChoosePsych() {
       {/* Features Section */}
       <section id="features" className="py-16">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold text-gray-700 sm:text-4xl">
             Why Choose PsycheScreen?
           </h2>
           <p className="mt-4 text-lg text-gray-600">

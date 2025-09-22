@@ -4,6 +4,7 @@ import PatinentScreenModal from './PatinentScreenModal';
 import { useState } from 'react';
 import WhyChoosePsych from './WhyChoosePsych';
 import HowPsycheScreenWork from './HowPsycheScreenWork';
+import HowAiCallsWork from './HowAiCallsWork';
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -13,6 +14,9 @@ export default function Home() {
       <HeroSection setIsModalOpen={setIsModalOpen} />
       <HowPsycheScreenWork />
       <AccessibleEffectiveSupport />
+      <WhyChoosePsych />
+      <HowAiCallsWork />
+
       <WhyChoosePsych />
 
       {/* Patient Screening Modal */}
