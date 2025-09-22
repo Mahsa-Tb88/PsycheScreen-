@@ -6,6 +6,7 @@ import WhyChoosePsych from './WhyChoosePsych';
 import HowPsycheScreenWork from './HowPsycheScreenWork';
 import HowAiCallsWork from './HowAiCallsWork';
 import AI from './AI';
+import HealthCare from './HealthCare';
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,8 +19,9 @@ export default function Home() {
 
       <HowAiCallsWork />
       <AI />
-      <WhyChoosePsych />
 
+      <HealthCare />
+      <WhyChoosePsych />
       {/* Patient Screening Modal */}
       {isModalOpen && <PatinentScreenModal setIsModalOpen={setIsModalOpen} />}
     </div>
