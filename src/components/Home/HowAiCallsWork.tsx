@@ -8,9 +8,6 @@ export default function HowAiCallsWork() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="bg-blue-100 p-6 rounded-lg border border-blue-200  mb-32">
-        <h2 className="text-2xl font-bold text-center mb-6">
-          How AI Calls Work
-        </h2>
         <div className="flex space-x-12 justify-center">
           <div className="text-center">
             <div className="w-14 h-14 bg-blue-200 rounded-full mx-auto flex items-center justify-center">

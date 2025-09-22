@@ -10,7 +10,7 @@ export default function HealthCare() {
           psychiatric clinics worldwide.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white  rounded-lg shadow-lg flex flex-col items-center overflow-hidden">
+          <div className="bg-white  rounded-lg shadow-sm border-gray-100 flex flex-col items-center overflow-hidden">
             <img
               src="/images/doctor-1.jpg"
               alt="Expert Clinical Support "
@@ -26,7 +26,7 @@ export default function HealthCare() {
               </p>
             </div>
           </div>
-          <div className="bg-white  rounded-lg shadow-lg flex flex-col items-center overflow-hidden">
+          <div className="bg-white  rounded-lg shadow-sm border-gray-200 flex flex-col items-center overflow-hidden">
             <img
               src="/images/healthcareTeam.jpg"
               alt="Health care team"
