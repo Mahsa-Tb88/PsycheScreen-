@@ -6,8 +6,8 @@ import { LuBrain } from 'react-icons/lu';
 
 export default function HowAiCallsWork() {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div className="bg-blue-100 p-6 rounded-lg border border-blue-200  mb-32">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
+      <div className="bg-blue-100 p-6 rounded-lg border border-blue-200  ">
         <div className="flex space-x-12 justify-center">
           <div className="text-center">
             <div className="w-14 h-14 bg-blue-200 rounded-full mx-auto flex items-center justify-center">
@@ -61,20 +61,3 @@ export default function HowAiCallsWork() {
     </section>
   );
 }
-
-<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-  <div className="text-center ">
-    <h2 className="text-3xl font-bold text-gray-700 sm:text-4xl mb-16">
-      How AI Calls Work
-    </h2>
-    <div className="grid grid-cols-1 md:grid-cols-4">
-      <div>
-        <div>
-          <span>
-            <BiChat />
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>;

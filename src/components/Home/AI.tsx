@@ -2,7 +2,7 @@ import { LuBrainCircuit } from 'react-icons/lu';
 
 export default function AI() {
   return (
-    <section className=" py-16 px-6 text-center ">
+    <section className=" py-16 my-4 px-6 text-center ">
       <div className="max-w-3xl mx-auto">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1 bg-emerald-500 text-white rounded-full text-sm font-medium mb-4">
