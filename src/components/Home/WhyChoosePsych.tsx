@@ -80,13 +80,6 @@ export default function WhyChoosePsych() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="mt-16 text-center py-8 border-t border-gray-200">
-        <p className="text-gray-500">
-          © 2024 PsycheScreen. All rights reserved.
-        </p>
-      </footer>
     </main>
   );
 }

@@ -6,6 +6,7 @@ import WhyChoosePsych from './WhyChoosePsych';
 import HowPsycheScreenWork from './HowPsycheScreenWork';
 import HowAiCallsWork from './HowAiCallsWork';
 import AI from './AI';
+import Footer from './Footer';
 import HealthCare from './HealthCare';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <HealthCare />
       <WhyChoosePsych />
       {/* Patient Screening Modal */}
+      <Footer />
       {isModalOpen && <PatinentScreenModal setIsModalOpen={setIsModalOpen} />}
     </div>
   );
