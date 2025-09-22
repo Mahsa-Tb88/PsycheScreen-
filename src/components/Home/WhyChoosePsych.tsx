@@ -80,7 +80,7 @@ export default function WhyChoosePsych() {
           </div>
         </div>
       </section>
-      <HowPsycheScreenWork />
+
       {/* Footer */}
       <footer className="mt-16 text-center py-8 border-t border-gray-200">
         <p className="text-gray-500">

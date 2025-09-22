@@ -5,6 +5,7 @@ import { useState } from 'react';
 import WhyChoosePsych from './WhyChoosePsych';
 import HowPsycheScreenWork from './HowPsycheScreenWork';
 import HowAiCallsWork from './HowAiCallsWork';
+import AI from './AI';
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -14,9 +15,9 @@ export default function Home() {
       <HeroSection setIsModalOpen={setIsModalOpen} />
       <HowPsycheScreenWork />
       <AccessibleEffectiveSupport />
-      <WhyChoosePsych />
-      <HowAiCallsWork />
 
+      <HowAiCallsWork />
+      <AI />
       <WhyChoosePsych />
 
       {/* Patient Screening Modal */}
