@@ -1,20 +1,19 @@
 import AccessibleEffectiveSupport from './AccessibleEffectiveSupport';
 import HeroSection from './HeroSection';
-import Main from './Main';
 import PatinentScreenModal from './PatinentScreenModal';
 import { useState } from 'react';
+import WhyChoosePsych from './WhyChoosePsych';
+import HowPsycheScreenWork from './HowPsycheScreenWork';
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <div>
-      {/* Hero Section */}
       <HeroSection setIsModalOpen={setIsModalOpen} />
-
-      {/* Main Content */}
-      <Main />
+      <HowPsycheScreenWork />
       <AccessibleEffectiveSupport />
+      <WhyChoosePsych />
 
       {/* Patient Screening Modal */}
       {isModalOpen && <PatinentScreenModal setIsModalOpen={setIsModalOpen} />}

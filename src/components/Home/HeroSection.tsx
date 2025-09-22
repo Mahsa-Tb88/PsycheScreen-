@@ -5,8 +5,12 @@ export default function HeroSection({
   setIsModalOpen: (isModalOpen: boolean) => void;
 }) {
   return (
-    <section className="py-16 lg:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 lg:py-24  relative ">
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-5"
+        style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+      ></div>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl ">
             PsycheScreen

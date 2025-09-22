@@ -71,7 +71,7 @@ export default function AccessibleEffectiveSupport() {
         </div>
         {/* {chat} */}
         <div className="flex justify-center py-12 ">
-          <div className="bg-blue-50 rounded-2xl shadow-md p-6 max-w-md w-full text-center border border-gray-100">
+          <div className="bg-blue-100 rounded-2xl p-6 max-w-md w-full text-center border border-1  border-blue-200">
             {/* Icon */}
             <div className="w-14 h-14 flex items-center justify-center mx-auto bg-blue-100 text-blue-600 rounded-full mb-4 text-2xl">
               <HiPhone />
