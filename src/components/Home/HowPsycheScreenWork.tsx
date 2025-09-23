@@ -1,14 +1,4 @@
-import { PiPhone } from 'react-icons/pi';
-import {
-  FaBrain,
-  FaFileAlt,
-  FaUsers,
-  FaArrowRight,
-  FaPhone,
-} from 'react-icons/fa';
-import { HiLightningBolt } from 'react-icons/hi';
 import { LuBrain, LuFile, LuPhone, LuUserCheck } from 'react-icons/lu';
-import { LiaUser, LiaUsersSolid } from 'react-icons/lia';
 
 export default function HowPsycheScreenWork() {
   const items = [
@@ -41,7 +31,7 @@ export default function HowPsycheScreenWork() {
   return (
     <section className=" py-12 px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-2xl font-bold text-gray-700 mb-10">
+        <h2 className="text-2xl font-bold text-gray-700 mb-7">
           How PsycheScreen Works
         </h2>
         <div className="grid md:grid-cols-2 gap-8 text-left">
@@ -52,7 +42,9 @@ export default function HowPsycheScreenWork() {
             >
               <div>
                 <h3 className="text-lg font-semibold text-gray-700 flex items-center gap-2">
-                  <span className="text-blue-600 font-bold">{item.icon}</span>{' '}
+                  <span className="text-blue-600 font-bold bg-blue-100 rounded-lg p-3">
+                    {item.icon}
+                  </span>
                   {item.title}
                 </h3>
                 <p className="text-gray-500 mt-1">{item.desc}</p>
