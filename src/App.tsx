@@ -1,13 +1,11 @@
-import Home from './components/Home/Home';
+import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-violet-50 ">
       <Navbar />
-      <Home />
+      <Outlet />
     </div>
   );
 }
-
-// style={{ backgroundColor: '#f7f5ff' }}

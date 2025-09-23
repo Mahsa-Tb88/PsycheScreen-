@@ -1,7 +1,7 @@
 export default function Login() {
   return (
     <div>
-      <p>Under construction</p>
+      <h2 className="pt-32 text-center font-bold">Under construction ...</h2>
     </div>
   );
 }

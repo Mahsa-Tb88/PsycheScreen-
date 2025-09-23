@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { IoCloseSharp } from 'react-icons/io5';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -31,12 +31,12 @@ export default function Navbar() {
 
           {/* Center Section - Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium"
             >
               Home
-            </a>
+            </Link>
             <a
               href="#features"
               className="text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium"
@@ -60,11 +60,19 @@ export default function Navbar() {
           <div className="flex items-center">
             {/* Right Section - Action Buttons */}
             <div className="flex items-center space-x-2 md:space-x-4">
-              <button className="text-xs md:text-base flex items-center space-x-2 px-1.5 py-1 md:px-4 md:py-2 text-gray-600 hover:text-gray-900 border border-gray-300 hover:border-gray-400 hover:bg-gray-50 shadow-sm rounded-lg font-medium"></button>
+              <Link
+                className="text-xs md:text-base flex items-center space-x-2 px-1.5 py-1 md:px-4 md:py-2 text-gray-600 hover:text-gray-900 border border-gray-300 hover:border-gray-400 hover:bg-gray-50 shadow-sm rounded-lg font-medium"
+                to={'login'}
+              >
+                Login
+              </Link>
 
-              <button className="text-xs md:text-base flex items-center space-x-2 px-1.5 py-1 md:px-6 md:py-2  bg-blue-600 text-white rounded-lg shadow-sm hover:bg-blue-700  font-medium ring-1 ring-blue-500/20">
-                <span>Get Started</span>
-              </button>
+              <Link
+                to="signUp"
+                className="text-xs md:text-base flex items-center space-x-2 px-1.5 py-1 md:px-6 md:py-2  bg-blue-600 text-white rounded-lg shadow-sm hover:bg-blue-700  font-medium ring-1 ring-blue-500/20"
+              >
+                Get Started
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
