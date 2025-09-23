@@ -1,4 +1,3 @@
-import { BiChat } from 'react-icons/bi';
 import { FiPhone } from 'react-icons/fi';
 import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
 import { IoChatbubbleOutline } from 'react-icons/io5';
