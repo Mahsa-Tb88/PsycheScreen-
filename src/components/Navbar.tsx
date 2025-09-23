@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-2 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Left Section - Logo and Brand Name */}
-          <div className="flex items-center space-x-1 md:space-x-3">
+          <Link className="flex items-center space-x-1 md:space-x-3" to="/">
             <div className="w-5 h-5 md:w-9 md:h-9 bg-gradient-to-r from-sky-500 to-blue-600 rounded-md md:rounded-xl flex items-center justify-center shadow-sm ring-1 ring-blue-500/20">
               <svg
                 className="w-6 h-6 text-white"
@@ -27,7 +27,7 @@ export default function Navbar() {
             <h1 className="text-base md:text-xl font-semibold text-gray-900">
               PsycheScreen
             </h1>
-          </div>
+          </Link>
 
           {/* Center Section - Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
