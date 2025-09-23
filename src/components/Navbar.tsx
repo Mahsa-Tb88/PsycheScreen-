@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
     <nav
-      className="shadow-sm border-b border-gray-200"
-      style={{ backgroundColor: '#f7f5ff' }}
+      className="shadow-sm border-b border-gray-200 bg-gray-100 fixed w-full z-10 "
+      // style={{ backgroundColor: '#f7f5ff' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
@@ -29,26 +29,26 @@ export default function Navbar() {
           {/* Center Section - Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
             <a
+              href="#home"
+              className="text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium"
+            >
+              Home
+            </a>
+            <a
               href="#features"
-              className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+              className="text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium"
             >
               Features
             </a>
             <a
-              href="#benefits"
-              className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+              href="#aboutUs"
+              className="text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium"
             >
-              Benefits
-            </a>
-            <a
-              href="#technology"
-              className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
-            >
-              Technology
+              About us
             </a>
             <a
               href="#contact"
-              className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+              className=" text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium"
             >
               Contact
             </a>
@@ -56,7 +56,7 @@ export default function Navbar() {
 
           {/* Right Section - Action Buttons */}
           <div className="flex items-center space-x-4">
-            <button className="flex items-center space-x-2 px-4 py-2 text-gray-700 hover:text-gray-900 border border-gray-300 hover:border-gray-400 hover:bg-gray-50 shadow-sm rounded-lg transition-colors duration-200 font-medium">
+            <button className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-gray-900 border border-gray-300 hover:border-gray-400 hover:bg-gray-50 shadow-sm rounded-lg transition-colors duration-200 font-medium">
               <span>Login</span>
             </button>
 
@@ -67,7 +67,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
-            <button className="text-gray-700 hover:text-gray-900">
+            <button className="text-gray-600 hover:text-gray-900">
               <svg
                 className="w-6 h-6"
                 fill="none"

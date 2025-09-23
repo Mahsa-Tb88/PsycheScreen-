@@ -5,7 +5,7 @@ export default function HeroSection({
   setIsModalOpen: (isModalOpen: boolean) => void;
 }) {
   return (
-    <section className="py-16 lg:py-24  relative ">
+    <section className="py-16 lg:py-24  relative " id="home">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-5"
         style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}

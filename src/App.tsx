@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-violet-50">
+    <div className="min-h-screen bg-violet-50 ">
       <Navbar />
       <Home />
     </div>

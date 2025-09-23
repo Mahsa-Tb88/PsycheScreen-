@@ -1,11 +1,13 @@
 import { FiPhone } from 'react-icons/fi';
 import { GrLocation } from 'react-icons/gr';
 import { MdOutlineMail } from 'react-icons/md';
-import { TfiEmail } from 'react-icons/tfi';
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-center items-center  border-t-1 border">
+    <footer
+      className="flex flex-col justify-center items-center  border-t-1 border "
+      id="contact"
+    >
       <div className="max-w-3xl mx-auto ">
         <div className="flex flex-col justify-center items-center p-10">
           <div className="flex items-center">

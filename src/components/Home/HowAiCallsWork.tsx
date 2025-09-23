@@ -6,7 +6,10 @@ import { LuBrain } from 'react-icons/lu';
 
 export default function HowAiCallsWork() {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
+    <section
+      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12"
+      id="features"
+    >
       <div className="bg-blue-100 p-6 rounded-lg border border-blue-200  ">
         <div className="flex space-x-12 justify-center">
           <div className="text-center">
